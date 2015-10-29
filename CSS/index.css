@@ -143,6 +143,24 @@ PAGE: PORTFOLIO;
 	color: #282828;
 }
 
+
+
+/******************************
+PAGE: ABOUT
+******************************/
+
+.profile-photo {
+	display: block;
+	max-width: 150px;
+	margin: 0px auto 50px;
+	border-radius: 100%;
+}
+
+#info {
+	text-align: center;
+}
+
+
 /******************************
 COLORS
 ******************************/
