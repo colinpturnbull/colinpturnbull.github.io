@@ -55,5 +55,6 @@
 @media screen and (max-width: 660px) {
 	header {
 		text-align: center;
+		margin-bottom: 60px;
 	}
 }
