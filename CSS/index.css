@@ -50,7 +50,7 @@ header {
 .logo {
 	letter-spacing: 3px;
 	height: 40px;
-	font-size: 24px;
+	font-size: 20px;
 	line-height: 40px;
 	vertical-align: middle;
 }
@@ -64,7 +64,7 @@ NAVIGATION
 nav {
 	text-align: center;
 	height: 40px;
-	font-size: 16px;
+	font-size: 14px;
 	line-height: 40px;
 	vertical-align: middle;
 }
@@ -135,15 +135,11 @@ PAGE: PORTFOLIO
 #gallery li {
 	float: left;
 	width: 45%;
-	margin: 2.5% 2.5% 0px 2.5%;
+	margin: 2.5%;
 }
 
-#gallery li p {
-	max-width: 282px;
-	text-align: center;
-	margin: 0;
-	padding-top: 5%;
-	font-size: 0.75em;
+#gallery li a:hover {
+	opacity: 0.3;
 }
 
 
