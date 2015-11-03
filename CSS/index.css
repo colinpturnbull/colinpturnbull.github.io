@@ -119,15 +119,11 @@ footer {
 	clear: both;
 }
 
-footer p {
-	float: left;
-}
-
 footer a p {
 	padding: 0 9px;
 	display: inline-block;
-	float: right;
 	color: #999;
+	margin-bottom: 0;
 }
 
 
