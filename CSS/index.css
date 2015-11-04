@@ -47,6 +47,7 @@ header {
 }
 
 .logo {
+	color: #33322D;
 	letter-spacing: 3px;
 	height: 40px;
 	font-size: 20px;
@@ -57,7 +58,7 @@ header {
 }
 
 .logo:hover {
-	color: #cba135;
+	color: #986C2B;
 }
 
 
@@ -74,13 +75,14 @@ nav {
 }
 
 nav a {
+	color: #33322D;
 	border-bottom:2px solid transparent;
 	-webkit-transition:border-bottom 300ms;
 	transition:all 300ms ease-in-out 0;
 }
 
 nav a.selected, nav a:hover {
-	border-bottom: 2px solid #cba135;
+	border-bottom: 2px solid #986C2B;
 }
 
 
@@ -160,9 +162,12 @@ PAGE: PORTFOLIO
 
 #gallery li a:hover img {
 	opacity: .5;
+	-webkit-filter: grayscale(1);
+  	 filter: grayscale(1);
 }
 
 span.project-title {
+	color: #33322D;
 	opacity: 0;
 	font-size: 14px;
 	position: absolute;
@@ -199,12 +204,12 @@ COLORS
 /*SITE BODY*/
 
 body {
-	opacity: #fff;
-	color: #282828;
+	color: #fff;
+	color: #33322D;
 }
 
 /*LINKS*/
 
 a {
-	color: #000;
+	color: #33322D;
 }
