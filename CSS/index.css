@@ -36,6 +36,8 @@ header {
 	height: 40px;	
 }
 
+}
+
 /*LOGO TEXT*/
 .logo-container, .logo {
 	display: inline-block;
@@ -43,7 +45,6 @@ header {
 
 .logo-container {
 	margin: 0;
-	width: 250px;
 }
 
 .logo {
@@ -131,7 +132,7 @@ footer a p {
 
 
 /******************************
-PAGE: PORTFOLIO
+PAGE: GALLERY
 ******************************/
 
 #gallery {
@@ -180,6 +181,39 @@ span.project-title {
 }
 
 
+
+/******************************
+PAGE: PORTFOLIO PIECE
+******************************/
+
+.project-date {
+	color: #999;
+	font-size: 12px;
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 10px;
+	margin: 0px;
+}
+
+.project-headline {
+	text-align: center;
+	font-size: 34px;
+}
+
+.project-content {
+	max-width: 700px;
+	margin: 30px auto 0 auto;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.6;
+}
+
+.images img{
+	max-width: 700px;
+	margin:auto;
+	display: block;
+}
 /******************************
 PAGE: ABOUT
 ******************************/
