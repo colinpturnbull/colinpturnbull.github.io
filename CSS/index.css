@@ -26,6 +26,41 @@ img {
 
 
 /******************************
+PAGE: INTRO
+******************************/
+
+.intro-content {
+	margin: 0 auto;
+	text-align: center;
+	left: 0;
+    margin: auto;
+    margin-top: -100px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    -webkit-animation: fadeInUp 1.5s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadeInUp 1.5s; /* Firefox < 16 */
+    -ms-animation: fadeInUp 1.5s; /* Internet Explorer */
+    -o-animation: fadeInUp 1.5s; /* Opera < 12.1 */
+    animation: fadeInUp 1.5s;
+}
+
+@keyframes fadeInUp {
+  from {opacity: 0; transform: translate3d(0, 100%, 0); }
+	to {opacity: 1;transform: none; }
+}
+
+.fadeInUp {
+  animation-name: fadeInUp;
+}
+
+.intro-title {
+	font-size: 4em;
+	letter-spacing: 3px;
+}
+
+
+/******************************
 HEADING
 ******************************/
 
