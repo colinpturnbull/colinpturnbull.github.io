@@ -59,6 +59,10 @@ PAGE: INTRO
 	letter-spacing: 3px;
 }
 
+.intro-content img {
+	height: 100px;
+	width: 100px;
+}
 
 /******************************
 HEADING
