@@ -1,8 +1,12 @@
+/******************************
+MIN WIDTH
+******************************/
+
 @media screen and (min-width: 480px) {
-	
-	/******************************
-	TWO COLUMN LAYOUT
-	******************************/
+
+/******************************
+TWO COLUMN LAYOUT
+******************************/
 
 	#primary {
 		width: 50%;
@@ -22,12 +26,14 @@
 		float: right;
 	}
 
-	/******************************
-	PAGE: PORTFOLIO
-	******************************/
+
+
+/******************************
+PAGE: PORTFOLIO
+******************************/
 
 	.project-content {
-		max-width: 23%;
+		max-width: 24%;
 		float: left;
 		display: inline-block;
 	}
@@ -42,11 +48,6 @@
 		margin: 30px 0 0 0;
 	}
 
-	.images img {
-		float: right;
-		display: inline-block;
-	}
-
 	a .back {
 		clear: both;
 		text-align: left;
@@ -59,12 +60,13 @@
 
 }
 
+
+
 @media screen and (min-width: 660px) {
 
-
-	/******************************
-	NAVIGATION
-	******************************/
+/******************************
+NAVIGATION
+******************************/
 
 	nav {
 		float: right;
@@ -82,9 +84,36 @@
 		float: left;
 		text-align: left;
 	}
-
-
 }
+
+@media screen and (min-width: 1010px) {
+	.images img {
+		float: right;
+		display: inline-block;
+	}
+}
+
+
+
+/******************************
+MAX WIDTH
+******************************/
+
+@media screen and (max-width: 480px) {
+	p span {
+		padding-top: 130px;
+	}
+
+	.intro-title {
+		font-size: 2em;
+	}
+	.intro-content img {
+		height: 50px;
+		width: 50px;
+	}
+}
+
+
 
 @media screen and (max-width: 660px) {
 	header {
@@ -100,6 +129,9 @@
 		width: 75px;
 	}
 }
+
+
+
 @media screen and (max-width: 1010px) {
 	.project-content {
 		max-width: 100%;
@@ -114,20 +146,8 @@
 		text-align: center;
 		max-width: 100%;
 	}
+
 }
 
-@media screen and (max-width: 480px) {
-	p span {
-		padding-top: 130px;
-	}
-
-	.intro-title {
-		font-size: 2em;
-	}
-	.intro-content img {
-		height: 50px;
-		width: 50px;
-	}
-}
 
 
