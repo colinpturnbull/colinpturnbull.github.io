@@ -47,16 +47,15 @@
 		width: 45%;
 	}
 
-.logo-container {
-	width: 45%;
-	margin-left: 5%;
-}
+	.logo-container {
+		width: 45%;
+		margin-left: 5%;
+	}
 
 	.logo {
 		float: left;
 		text-align: left;
 	}
-
 }
 
 @media screen and (max-width: 660px) {
