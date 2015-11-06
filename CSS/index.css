@@ -44,6 +44,7 @@ header {
 }
 
 .logo-container {
+	text-align: center;
 	margin: 0;
 }
 
@@ -186,22 +187,24 @@ span.project-title {
 PAGE: PORTFOLIO PIECE
 ******************************/
 
-.project-date {
-	text-align: center;
+p span {
 	color: #999;
 	font-size: 12px;
-	padding-top: 100px;
-	padding-bottom: 10px;
-	margin: 0px;
-}
-
-.project-headline {
-	color: #33322D;
-	text-align: center;
-	font-size: 34px;
+	display: block;
 }
 
 .project-content {
+	margin-top: 2.5%;
+}
+
+.project-content h1 {
+	color: #33322D;
+	text-align: center;
+	font-size: 34px;
+	height: 34px;
+}
+
+.project-content p {
 	text-align: center;
 	max-width: 700px;
 	margin: 30px auto 30px;
@@ -210,9 +213,9 @@ PAGE: PORTFOLIO PIECE
 	line-height: 1.6;
 }
 
-.images img{
-	margin: 15px auto;
-	display: block;
+.images img {
+	margin: 2.5% auto 5px;
+	display: inline-block;
 }
 
 a .back {
@@ -223,6 +226,7 @@ a .back {
 	font-weight: 700;
 	-webkit-transition:color 300ms;
 	transition:all 300ms ease-in-out 0;
+	clear: all;
 }
 
 a .back:hover {
