@@ -29,14 +29,31 @@ img {
 PAGE: INTRO
 ******************************/
 
+img.bg {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
 .intro-content {
+	color: #986C2B;
 	margin: 0 auto;
 	text-align: center;
 	left: 0;
     margin: auto;
     margin-top: -100px;
     position: absolute;
-    top: 50%;
+    top: 60%;
     width: 100%;
     -webkit-animation: fadeInUp 1.5s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadeInUp 1.5s; /* Firefox < 16 */
@@ -192,31 +209,32 @@ PAGE: GALLERY
 	display: inline-block;
 }
 
-#gallery li a .project-title,
 #gallery li a img {
-	-webkit-transition: opacity .5s ease-out;
-    -moz-transition: opacity .5s ease-out;
-    -o-transition: opacity .5s ease-out;
-    transition: opacity .5s ease-out;
+	-webkit-transition: opacity .3s ease-out;
+    -moz-transition: opacity .3s ease-out;
+    -o-transition: opacity .3s ease-out;
+    transition: opacity .3s ease-out;
 }
 
 #gallery li a:hover .project-title {
-	opacity: 1;
+	color: #986C2B;
 }
 
 #gallery li a:hover img {
-	opacity: .5;
+	opacity: .25;
 	-webkit-filter: grayscale(1);
   	 filter: grayscale(1);
 }
 
 span.project-title {
-	color: #33322D;
-	opacity: 0;
-	font-size: 14px;
-	position: absolute;
-	top: 20px;
-	left: 20px;
+	font-weight: 700;
+	letter-spacing: 3px;
+	color: #ffffff;
+	text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 47%;
+    width: 100%;
 }
 
 .project {
@@ -260,9 +278,8 @@ p span {
 	display: inline-block;
 }
 
-a .back {
+.back a {
 	text-align: center;
-	margin-top: 50px;
 	color: #33322D;
 	font-size: 14px;
 	font-weight: 700;
@@ -271,7 +288,7 @@ a .back {
 	clear: all;
 }
 
-a .back:hover {
+.back a:hover {
 	color: #986C2B ;
 }
 
