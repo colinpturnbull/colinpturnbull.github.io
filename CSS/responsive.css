@@ -45,12 +45,11 @@ PAGE: PORTFOLIO
 
 	.project-content p {
 		text-align: left;
-		margin: 30px 0 0 0;
+		margin: 20px 0 0 0;
 	}
 
 	a .back {
-		clear: both;
-		text-align: left;
+		text-align: center;
 		padding-top: 30px;
 	}
 
