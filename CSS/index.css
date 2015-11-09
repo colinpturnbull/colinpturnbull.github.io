@@ -72,8 +72,14 @@ img.bg {
 }
 
 .intro-title {
-	font-size: 4em;
+	font-size: 3em;
 	letter-spacing: 3px;
+}
+
+h3.intro-title {
+	font-size: 1em;
+	margin: 0 auto;
+	letter-spacing: 5px;
 }
 
 .intro-content img {
