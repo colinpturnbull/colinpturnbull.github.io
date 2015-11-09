@@ -55,11 +55,11 @@ img.bg {
     position: absolute;
     top: 60%;
     width: 100%;
-    -webkit-animation: fadeInUp 1.5s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadeInUp 1.5s; /* Firefox < 16 */
-    -ms-animation: fadeInUp 1.5s; /* Internet Explorer */
-    -o-animation: fadeInUp 1.5s; /* Opera < 12.1 */
-    animation: fadeInUp 1.5s;
+    -webkit-animation: fadeInUp 3s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadeInUp 3s; /* Firefox < 16 */
+    -ms-animation: fadeInUp 3s; /* Internet Explorer */
+    -o-animation: fadeInUp 3s; /* Opera < 12.1 */
+    animation: fadeInUp 3s;
 }
 
 @keyframes fadeInUp {
@@ -136,8 +136,8 @@ nav {
 nav a {
 	color: #33322D;
 	border-bottom:2px solid transparent;
-	-webkit-transition:border-bottom 300ms;
-	transition:all 300ms ease-in-out 0;
+	-webkit-transition:border-bottom .5s;
+	transition:all .5s ease-in-out 0;
 }
 
 nav a.selected, nav a:hover {
