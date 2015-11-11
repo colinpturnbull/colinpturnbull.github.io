@@ -69,14 +69,12 @@ NAVIGATION
 
 	nav {
 		float: right;
-		margin-right: 5%;
 		text-align: right;
 		width: 45%;
 	}
 
 	.logo-container {
 		width: 45%;
-		margin-left: 5%;
 	}
 
 	.logo {
