@@ -97,9 +97,9 @@ MAX WIDTH
 ******************************/
 
 @media screen and (max-width: 480px) {
-	p span {
+/*	p span {
 		padding-top: 130px;
-	}
+	}*/
 }
 
 
@@ -107,7 +107,6 @@ MAX WIDTH
 @media screen and (max-width: 660px) {
 	header {
 		text-align: center;
-		margin-bottom: 60px;
 	}
 
 	.intro-title {
