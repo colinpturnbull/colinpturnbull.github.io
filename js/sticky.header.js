@@ -7,8 +7,10 @@ $(document).ready(function() {
        var scrollVal = $(this).scrollTop();
         if ( scrollVal > headerH ) {
             $('#navbar').addClass('navbar-fixed');
+            $('.placeholder').addClass('placeholder-visible');
         } else {
             $('#navbar').removeClass('navbar-fixed');
+            $('.placeholder').removeClass('placeholder-visible');
         }
     });
  });
