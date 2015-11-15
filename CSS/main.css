@@ -26,8 +26,7 @@ h3 {
 /*--------------------------------------------*/
 
 .large-12.columns {
-    background: url('../Images/Background/Colin-Colin-0037.jpg') no-repeat;
-    center: 50%;
+    background: url('../Images/Background/Colin-Colin-0037.jpg') no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
     margin: 0 auto;
@@ -300,6 +299,9 @@ footer {
 		line-height: 75px;
 	}
 
+	.intro-title {
+		font-size: 2em;
+	}
 }
 
 
