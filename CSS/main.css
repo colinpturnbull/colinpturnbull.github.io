@@ -246,6 +246,56 @@ span.project-title {
 }
 
 
+
+/*--------------------------------------------*/
+/*           PAGE: PORTFOLIO PIECE            */
+/*--------------------------------------------*/
+
+.whitespace {
+	width: 100%;
+	height: 100px;
+}
+
+.small-3.columns {
+	width: 33.33333%;
+	padding-left: 3%;
+}
+
+.small-3.columns h2 {
+	font-family: 'Montserrat' sans-serif;
+	color: #33322D;
+	font-weight: 700;
+	margin: 0 auto 15px auto;
+}
+
+.small-3.columns .project-date {
+	color: #999;
+	font-size: .75em;
+	margin: 0 auto;
+}
+
+.small-3.columns .project-content {
+	color: #33322D;
+	font-size: 14px;
+	margin: 0 auto;
+}
+
+.small-9.columns {
+	width: 66.66666%;
+	padding-right: 3%;
+	padding-left: 0;
+}
+
+.small-9.columns img {
+	width: 100%;
+	padding-bottom: 15px;
+}
+
+
+
+
+
+
 /*--------------------------------------------*/
 /*                    FOOTER                  */
 /*--------------------------------------------*/
@@ -309,6 +359,22 @@ footer a p {
 		font-family: 'Montserrat' sans-serif;
 		font-size: 2em;
 	}
+
+	.small-3.columns {
+		width: 100%;
+		text-align: center;
+	}
+
+	.small-9.columns {
+		width: 100%;
+		padding: 0;
+		margin-top: 45px;
+	}
+
+
+
+
+
 }
 
 
