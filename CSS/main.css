@@ -223,7 +223,7 @@ nav a {
 span.project-title {
 	font-weight: 700;
 	letter-spacing: 3px;
-	color: #ffffff;
+	color: #fff;
 	text-align: center;
     margin: -12px auto;
     position: absolute;
@@ -305,29 +305,65 @@ span.project-title {
 
 
 
-
-
-
 /*--------------------------------------------*/
 /*                    FOOTER                  */
 /*--------------------------------------------*/
 
 footer {
+	position: relative;
 	height: 200px;
 	width: 100%;
 	clear: both;
-	color: #999;
 	font-size: 0.75em;
-	text-align: center;
 }
 
-footer a p {
-	padding: 0 9px;
+.footer-content {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	margin-top: -22.5px;
+	height: 45px;
+}
+
+.pull-left {
+	width: 50%;
 	display: inline-block;
-	color: #999;
-	margin-bottom: 0;
+	line-height: 45px;
+	float: left;
+	text-align: left;
+	padding-left: 3%;
 }
 
+.pull-left p {
+	line-height: 45px;
+	font-size: 1em;
+	margin:0;
+	color: #999;
+}
+
+.pull-right {
+	height: 45px;
+	width: 50%;
+	float: right;
+	text-align: right;
+	padding-right: 3%;
+}
+
+.pull-right a {
+	display: inline-block;
+	line-height: 45px;
+}
+
+.pull-right a img {
+	vertical-align: middle;
+	margin:0;
+	width: 29px;
+	height: 29px;
+}
+
+.pull-right a:hover {
+	color: #986C2B;
+}
 
 /*--------------------------------------------*/
 /*                    @MEDIA                  */
