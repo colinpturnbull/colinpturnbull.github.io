@@ -13,6 +13,8 @@ body {
 
 h1 {
 	color: #986C2B;
+	font-family: 'Montserrat' sans-serif;
+	font-weight: 700;
 }
 
 h3 {
@@ -30,6 +32,7 @@ h3 {
     background-size: cover;
     background-attachment: fixed;
     margin: 0 auto;
+    padding: 0;
     position: relative;
     max-width: 100%;
     height: 100vh;
@@ -46,11 +49,11 @@ h3 {
     position: absolute;
     top: 60%;
     width: 100%;
-    -webkit-animation: fadeIn 4s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadeIn 4s; /* Firefox < 16 */
-    -ms-animation: fadeIn 4s; /* Internet Explorer */
-    -o-animation: fadeIn 4s; /* Opera < 12.1 */
-    animation: fadeIn 4s;
+    -webkit-animation: fadeIn 3s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadeIn 3s; /* Firefox < 16 */
+    -ms-animation: fadeIn 3s; /* Internet Explorer */
+    -o-animation: fadeIn 3s; /* Opera < 12.1 */
+    animation: fadeIn 3s;
 }
 
 @keyframes fadeIn {
@@ -71,11 +74,6 @@ h3.intro-title {
 	font-size: 1em;
 	margin: 0 auto;
 	letter-spacing: 5px;
-}
-
-.intro-content img {
-	height: 100px;
-	width: 100px;
 }
 
 
@@ -135,7 +133,6 @@ nav {
 	font-size: 14px;
 	line-height: 100px;
 	vertical-align: middle;
-	text-transform: uppercase;
 	letter-spacing: 1px;
 }
 
@@ -257,7 +254,16 @@ footer {
 	height: 200px;
 	width: 100%;
 	clear: both;
-	color: red;
+	color: #999;
+	font-size: 0.75em;
+	text-align: center;
+}
+
+footer a p {
+	padding: 0 9px;
+	display: inline-block;
+	color: #999;
+	margin-bottom: 0;
 }
 
 
