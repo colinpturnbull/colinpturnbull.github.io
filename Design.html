@@ -1,58 +1,99 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Colin Turnbull | Design Portfolio</title>
-		<link rel="stylesheet" type="text/css" href="CSS/normalize.css">
-		<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" type="text/css" href="CSS/index.css">
-		<link rel="stylesheet" type="text/css" href="CSS/responsive.css">
-		<link rel="shortcut icon" href="Images/Favicon/favicon.ico" type="image/x-icon">
-		<link rel="icon" href="Images/Favicon/favicon.ico" type="image/x-icon">
-	</head>
-	<body>
-		<div id="wrapper">
-			<header>
-				<h1 class="logo-container">
-					<a href="index.html" class="logo">COLIN TURNBULL</a>
-				</h1>
-				<nav>
-					<a href="Design.html" class="selected">Work</a>
-					<a href="Info.html">About</a>
-					<a href="Images/resume-2015.pdf">Resume</a>
-				</nav>
-			</header>
-			<section>
-				<ul id="gallery">
-					<li>
-						<a href="logos.html">
-							<div class="project">
-								<img src="Images/design/thumbnails/logos.jpg">
-								<span class="project-title">VARIOUS LOGOS</span>
-							</div>
-						</a>
-					</li><li>
-						<a href="blend.html">
-							<div class="project">
-								<img src="Images/design/thumbnails/blend.jpg">
-								<span class="project-title">BLEND</span>
-							</div>
-						</a>
-					</li><li>
-						<a href=""><img src="Images/Photography/Thumbnails/Italy_2015_Thumb.jpg">
-						</a>
-					</li><li>
-						<a href=""><img src="Images/Photography/Thumbnails/Italy_2015_Thumb.jpg">
-						</a>
-					</li>
-				</ul>
-			</section>
-			<footer>
-					<a href="https://twitter.com/colinpturnbull"><p>Twitter</p></a>
-					<a href="https://www.linkedin.com/profile/view?id=AAIAABs0CCcBD7AoV9VNBQeJfR_UDXpR3sVrLrI&trk=nav_responsive_tab_profile_pic"><p>LinkedIn</p></a>
-				<p>&copy; 2015 Colin Turnbull</p>
-			</footer>
-		</div>
-	</body>
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Colin Turnbull | Design Portfolio</title>
+    <link rel="stylesheet" href="CSS/foundation-normalize.css" />
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="CSS/foundation.css" />
+    <link rel="stylesheet" href="CSS/main.css" />
+    <link rel="shortcut icon" href="Images/Favicon/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="Images/Favicon/favicon.ico" type="image/x-icon">
+    <script src="js/modernizr.js"></script>
+  </head>
+  <body>
+    <div id="navbar" class="navbar-fixed">
+      <header>
+        <h1 class="logo-container">
+          <a href="index.html" class="logo">COLIN TURNBULL</a>
+        </h1>
+        <nav>
+          <a href="index.html#work" class="selected">Work</a>
+          <a href="Info.html">About</a>
+          <a href="Images/resume-2015.pdf">Resume</a>
+        </nav>
+      </header>
+    </div>
+    <section>
+      <div class="whitespace"></div>
+    <div class="row">
+      <div class="large-4 medium-4 small-12 columns">
+        <a href="logos.html">
+          <div class="block1">
+            <img src="Images/design/thumbnails/logos.jpg">
+            <span class="project-title">LOGOS</span>
+          </div>
+        </a>  
+      </div>
+      <div class="large-4 medium-4 small-12 columns">
+        <a href ="blend.html">
+          <div class="block2">
+            <img src="Images/design/thumbnails/blend.jpg">
+            <span class="project-title">BLEND</span>
+          </div>
+        </a>
+      </div>
+      <div class="large-4 medium-4 small-12 columns">
+        <a href="logos.html">
+          <div class="block3">
+            <img src="Images/design/thumbnails/logos.jpg">
+            <span class="project-title">PROJECT THREE</span>
+          </div>
+        </a>  
+      </div>
+    </div>
+    <div class="row2">
+      <div class="large-4 medium-4 small-12 columns">
+        <a href="logos.html">
+          <div class="block3">
+            <img src="Images/design/thumbnails/logos.jpg">
+            <span class="project-title">PROJECT FOUR</span>
+          </div>
+        </a> 
+      </div>
+      <div class="large-4 medium-4 small-12 columns">
+        <a href="logos.html">
+          <div class="block3">
+            <img src="Images/design/thumbnails/logos.jpg">
+            <span class="project-title">PROJECT FIVE</span>
+          </div>
+        </a> 
+      </div>
+      <div class="large-4 medium-4 small-12 columns">
+        <a href="logos.html">
+          <div class="block3">
+            <img src="Images/design/thumbnails/logos.jpg">
+            <span class="project-title">PROJECT SIX</span>
+          </div>
+        </a> 
+      </div>
+    </div>
+    <footer>
+      <div class="footer-content">
+        <div class="pull-left">
+        <p>&copy; 2015 Colin Turnbull</p>
+        </div>
+        <div class="pull-right">
+        <a href="https://instagram.com/colinpturnbull/"><img src="Images/icon-instagram.png"></a>
+        <a href="https://twitter.com/colinpturnbull"><img src="Images/icon-twitter.png"></a>
+        </div>
+      </div>
+    </footer>
+    <script src="js/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
 </html>

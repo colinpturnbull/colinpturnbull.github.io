@@ -306,12 +306,24 @@ span.project-title {
 
 
 /*--------------------------------------------*/
+/*               PAGE: ABOUT ME               */
+/*--------------------------------------------*/
+
+.about-image {
+	background: url('../Images/Background/Colin-Colin-0013.jpg');
+}
+
+
+
+
+
+/*--------------------------------------------*/
 /*                    FOOTER                  */
 /*--------------------------------------------*/
 
 footer {
 	position: relative;
-	height: 200px;
+	height: 150px;
 	width: 100%;
 	clear: both;
 	font-size: 0.75em;
