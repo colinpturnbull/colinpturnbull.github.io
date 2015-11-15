@@ -1,0 +1,309 @@
+/*--------------------------------------------*/
+/*             FOUNDATION OVERRIDE            */
+/*--------------------------------------------*/
+
+body {
+	font-family: 'Montserrat' sans-serif;
+}
+
+.row,
+.row2 {
+	max-width: 100%;
+}
+
+h1 {
+	color: #986C2B;
+}
+
+h3 {
+	color: #986C2B;
+	font-family: 'Montserrat' sans-serif;
+	font-weight: 700;
+}
+
+/*--------------------------------------------*/
+/*                LANDING PAGE                */
+/*--------------------------------------------*/
+
+.large-12.columns {
+    background: url('../Images/Background/Colin-Colin-0037.jpg') no-repeat;
+    center: 50%;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0 auto;
+    position: relative;
+    max-width: 100%;
+    height: 100vh;
+}
+
+
+.intro-content {
+	color: #986C2B;
+	margin: 0 auto;
+	text-align: center;
+	left: 0;
+    margin: auto;
+    margin-top: -100px;
+    position: absolute;
+    top: 60%;
+    width: 100%;
+    -webkit-animation: fadeIn 4s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadeIn 4s; /* Firefox < 16 */
+    -ms-animation: fadeIn 4s; /* Internet Explorer */
+    -o-animation: fadeIn 4s; /* Opera < 12.1 */
+    animation: fadeIn 4s;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0; }
+	to {opacity: 1;transform: none; }
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+}
+
+.intro-title {
+	font-size: 3em;
+	letter-spacing: 3px;
+}
+
+h3.intro-title {
+	font-size: 1em;
+	margin: 0 auto;
+	letter-spacing: 5px;
+}
+
+.intro-content img {
+	height: 100px;
+	width: 100px;
+}
+
+
+
+/*--------------------------------------------*/
+/*              HEADING AND LOGO              */
+/*--------------------------------------------*/
+
+
+.navbar-fixed {
+	background-color: rgba(255, 255, 255, .95);
+	margin-bottom: 100px;
+    z-index: 100;
+  	position: fixed;
+    width: 100%;
+}
+
+
+.logo-container, .logo {
+	display: inline-block;
+}
+
+.logo-container {
+	padding-left: 3%;
+	width: 50%;
+	margin: 0;
+	height: 100px;
+}
+
+.logo {
+	color: #33322D;
+	letter-spacing: 3px;
+	height: 40px;
+	font-size: 20px;
+	line-height: 100px;
+	vertical-align: middle;
+	-webkit-transition:color 300ms;
+	transition:all 300ms ease-in-out 0;
+}
+
+.logo:hover {
+	color: #986C2B;
+}
+
+
+
+/*--------------------------------------------*/
+/*                 NAVIGATION                 */
+/*--------------------------------------------*/
+
+nav {
+	padding-right: 3%;
+	text-align: right;
+	width: 50%;
+	float: right;
+	height: 100px;
+	font-size: 14px;
+	line-height: 100px;
+	vertical-align: middle;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+nav a {
+	color: #33322D;
+	-webkit-transition:border-bottom .5s;
+	transition:all .5s ease-in-out 0;
+}
+
+nav a.selected, nav a:hover {
+	color: #986C2B;
+}
+
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.5em;
+	font-weight: 700;
+	margin: 0px;
+	line-height: 1.5em;
+}
+
+nav ul {
+	list-style: none;
+	margin: 15px 10px;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	font-weight: 700;
+	padding: 5px 9px;
+}
+
+
+
+/*--------------------------------------------*/
+/*                    GALLERY                 */
+/*--------------------------------------------*/
+
+.large-4.medium-4.small-12.columns {
+	padding: 0;
+}
+
+.block1 {
+	position: relative;
+	display: block;
+	width: 100%;
+}
+
+.block1 img,
+.block2 img,
+.block3 img,
+.block4 img,
+.block5 img,
+.block6 img {
+	-webkit-transition: opacity .3s ease-out;
+    -moz-transition: opacity .3s ease-out;
+    -o-transition: opacity .3s ease-out;
+    transition: opacity .3s ease-out;
+}
+
+.large-4.medium-4.small-12.columns a:hover img {
+	opacity: .25;
+	-webkit-filter: grayscale(1);
+  	filter: grayscale(1);
+}
+
+.large-4.medium-4.small-12.columns a:hover .project-title {
+	color: #986C2B;
+}
+
+span.project-title {
+	font-weight: 700;
+	letter-spacing: 3px;
+	color: #ffffff;
+	text-align: center;
+    margin: -12px auto;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    left: 0;
+}
+
+.block2 {
+	position: relative;
+	display: block;
+}
+
+.block3 {
+	position: relative;
+	display: block;
+}
+
+.block4 {
+	display: block;
+	width: 100%;
+}
+
+.block5 {
+	display: block;
+	width: 100%;
+}
+
+.block6 {
+	display: block;
+	width: 100%;
+}
+
+
+/*--------------------------------------------*/
+/*                    FOOTER                  */
+/*--------------------------------------------*/
+
+footer {
+	height: 200px;
+	width: 100%;
+	clear: both;
+	color: red;
+}
+
+
+/*--------------------------------------------*/
+/*                    @MEDIA                  */
+/*--------------------------------------------*/
+
+@media (max-width: 640px) {
+	.block1,
+	.block2,
+	.block3,
+	.block4,
+	.block5,
+	.block6 {
+		margin: 0;
+		height: 100%;
+	}
+
+	.logo-container {
+		text-align: center;
+		width: 100%;
+		height: 50px;
+		padding-left: 0;
+	}
+
+	header {
+		padding: 10px 0 10px;
+	}
+
+	nav {
+		text-align: center;
+		width: 100%;
+		padding-right: 0;
+		height: 50px;
+		line-height: 25px;
+	}
+
+	.logo {
+		line-height: 75px;
+	}
+
+}
+
+
+
+
+
+
