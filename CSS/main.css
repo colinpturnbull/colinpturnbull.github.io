@@ -509,6 +509,17 @@ footer {
 		width: 100%;
 	}
 
+	.large-12.columns {
+	background: url('../Images/Background/Colin-Colin-0037BW_Small.jpg') no-repeat center 0;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    max-width: 100%;
+    height: 100vh;
+}
+
 }
 
 
