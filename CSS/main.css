@@ -283,6 +283,7 @@ span.project-title {
 	color: #33322D;
 	font-weight: 700;
 	margin: 0 auto 15px auto;
+	line-height: 1.1em;
 }
 
 .small-3.columns .project-date {
