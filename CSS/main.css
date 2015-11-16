@@ -28,7 +28,7 @@ h3 {
 /*--------------------------------------------*/
 
 .large-12.columns {
-    background: url('../Images/Background/Colin-Colin-0024BW.jpg') no-repeat center center;
+    background: url('../Images/Background/Colin-Colin-0037BW.jpg') no-repeat center 0;
     background-size: cover;
     background-attachment: fixed;
     margin: 0 auto;
@@ -71,7 +71,7 @@ h3 {
 }
 
 h3.intro-title {
-	font-size: 1.5em;
+	font-size: 1.25em;
 	margin: 0 auto;
 	letter-spacing: 3px;
 }
@@ -138,8 +138,8 @@ nav {
 
 nav a {
 	color: #33322D;
-	-webkit-transition:border-bottom .5s;
-	transition:all .5s ease-in-out 0;
+	-webkit-transition:color 300ms;
+	transition:all 300ms ease-in-out 0;
 }
 
 nav a.selected, nav a:hover {
@@ -327,8 +327,7 @@ span.project-title {
 /*--------------------------------------------*/
 
 .large-12.columns.about {
-	background: url('../Images/Background/Colin-Colin-0013.jpg') no-repeat;
-	background-position: 0 25%;
+	background: url('../Images/Background/Colin-Colin-0013.jpg') no-repeat center 25%;
 	background-size: cover;
 	height: 450px;
 }
@@ -350,6 +349,7 @@ span.project-title {
 }
 
 .about-title {
+	letter-spacing: 1px;
 	font-weight: 700;
 	color: #986C2B;
 }
@@ -502,6 +502,10 @@ footer {
 
 	.small-3.columns.about {
 		text-align: left;
+		width: 100%;
+	}
+
+	.about-content {
 		width: 100%;
 	}
 
