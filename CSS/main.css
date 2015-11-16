@@ -303,18 +303,86 @@ span.project-title {
 	padding-bottom: 15px;
 }
 
+.back {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.back a {
+	color: #33322D;
+	font-size: 14px;
+	-webkit-transition:color 300ms;
+	transition:all 300ms ease-in-out 0;
+}
+
+.back a:hover {
+	color: #986C2B;
+}
+
+
 
 
 /*--------------------------------------------*/
 /*               PAGE: ABOUT ME               */
 /*--------------------------------------------*/
 
-.about-image {
-	background: url('../Images/Background/Colin-Colin-0013.jpg');
+.large-12.columns.about {
+	background: url('../Images/Background/Colin-Colin-0013.jpg') no-repeat;
+	background-position: 0 25%;
+	background-size: cover;
+	height: 450px;
 }
 
+.row.about {
+	padding: 50px 10% 0;
+}
 
+.small-9.columns.about {
+	width: 66.6666%;
+	min-height: 200px;
+	padding: 0;
+}
 
+.small-3.columns.about {
+	width: 33.33333%;
+	min-height: 200px;
+	padding: 0;
+}
+
+.about-title {
+	font-weight: 700;
+	color: #986C2B;
+}
+
+.about-content {
+	font-size: 12px;
+	width: 90%;
+}
+
+.about-content span {
+	display: block;
+	margin-bottom: 15px;
+}
+
+ul.about-content {
+	margin: 0;
+}
+
+.about-content li {
+	list-style: none;
+	padding: 0;
+	line-height: 24px
+}
+
+.about-content li a {
+	color: #33322D;
+	-webkit-transition:color 300ms;
+	transition:all 300ms ease-in-out 0;
+}
+
+.about-content li a:hover {
+	color: #986C2B;
+}
 
 
 /*--------------------------------------------*/
@@ -427,9 +495,15 @@ footer {
 		margin-top: 45px;
 	}
 
+	.small-9.columns.about {
+		margin-top: 0;
+		width: 100%;
+	}
 
-
-
+	.small-3.columns.about {
+		text-align: left;
+		width: 100%;
+	}
 
 }
 
