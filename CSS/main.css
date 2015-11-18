@@ -325,6 +325,11 @@ span.project-title {
 	color: #986C2B;
 }
 
+.project-content span {
+	display: block;
+	margin-bottom: 15px;
+}
+
 
 
 
