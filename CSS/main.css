@@ -26,7 +26,7 @@ h3 {
 /*                LANDING PAGE                */
 /*--------------------------------------------*/
 
-.large-12.columns {
+.large-12.columns.index {
 	background: url('../Images/Background/Colin-Colin-0037BW.jpg') no-repeat center 0 fixed;
 	-webkit-background-size: 100%; 
     -moz-background-size: 100%; 
@@ -396,6 +396,24 @@ ul.about-content {
 .about-content li a:hover {
 	color: #986C2B;
 }
+
+
+
+/*--------------------------------------------*/
+/*                PAGE: RESUME                */
+/*--------------------------------------------*/
+
+.large-12.columns.resume {
+	width: 100%;
+	height: 300px;
+	background-color: blue;
+}
+
+.row.resume {
+	margin: 0;
+	padding: 0;
+}
+
 
 
 /*--------------------------------------------*/
