@@ -22,6 +22,13 @@ h3 {
 	font-family: 'Montserrat' sans-serif;
 }
 
+::selection {
+  background: #986C2B;
+  color: #fff; /* WebKit/Blink Browsers */
+}
+
+
+
 /*--------------------------------------------*/
 /*                LANDING PAGE                */
 /*--------------------------------------------*/
@@ -411,7 +418,112 @@ ul.about-content {
 
 .row.resume {
 	margin: 0;
+	padding: 0 10% 0;
+}
+
+.small-9.columns.resume {
+	width: 66.66666%;
+	min-height: 200px;
 	padding: 0;
+}
+
+.small-3.columns.resume {
+	width: 33.33333%;
+	min-height: 200px;
+}
+
+.resume-category {
+	letter-spacing: 1px;
+	font-weight: 700;
+	color: #986C2B;
+	border-bottom: 1px solid #999;
+	margin-bottom: 15px;
+}
+
+.resume-title {
+	font-size: 14px;
+	width: 80%;
+	float: left;
+	margin: 0;
+}
+
+.resume-title span {
+	letter-spacing: 1px;
+	font-weight: 700;
+}
+
+.resume-date {
+	text-align: right;
+	width: 20%;
+	float: right;
+	margin: 0;
+	font-family: 'Open-Sans' sans-serif;
+	color: #999;
+	font-size: 12px;
+}
+
+.resume-duties {
+	clear: both;
+	padding-left: 10%;
+	font-family: 'Open-Sans' sans-serif;
+	font-size: 14px;
+	margin: 0 0 15px 0
+}
+
+.right-category {
+	letter-spacing: 1px;
+	font-weight: 700;
+	color: #986C2B;
+	border-bottom: 1px solid #999;
+	margin-bottom: 15px;
+}
+
+.right-title {
+	font-size: 14px;
+	width: 100%;
+	float: left;
+	margin: 0;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+
+.right-date {
+	color: #999;
+	font-size: 12px;
+	font-family: 'Open-Sans' sans-serif;
+	margin: 0;
+}
+
+.right-description {
+	font-family: 'Open-Sans' sans-serif;
+	font-size: 14px;
+	margin: 0 0 15px 0;
+	list-style-position: inside;
+}
+
+.download {
+	margin-top: 30px;
+	width: 175px;
+}
+
+
+.download p {
+	color: #33322D;
+	border: 1px solid #33322D;
+	font-weight: 700;
+	font-size: 12px;
+	width: 100%;
+	text-align: center;
+	padding: 10px 20px;
+	margin: 0;
+	-webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+}
+
+.download p:hover {
+	color: #fff;
+	background-color: #986C2B;
+	border: 1px solid #986C2B;
 }
 
 
@@ -539,6 +651,36 @@ footer {
 
 	.about-content {
 		width: 100%;
+	}
+
+	.small-9.columns.resume {
+		margin-top: 0;
+		width: 100%;
+	}
+
+	.small-3.columns.resume {
+		text-align: left;
+		width: 100%;
+		padding: 0;
+	}
+
+	.resume-title {
+		width: 100%;
+	}
+	
+	.resume-date {
+		float: left;
+		text-align: left;
+		width: 100%;
+	}
+
+	.resume-duties {
+		padding-left: 0;
+		list-style-position: inside;
+	}
+
+	.download {
+		margin: 0 auto;
 	}
 
 	.large-12.columns {
