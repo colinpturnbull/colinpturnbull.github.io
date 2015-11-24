@@ -683,7 +683,7 @@ footer {
 		margin: 0 auto;
 	}
 
-	.large-12.columns {
+	.large-12.columns.index {
 	background: url('../Images/Background/Colin-Colin-0037BW.jpg') no-repeat center 0;
 	-webkit-background-size: 100%; 
     -moz-background-size: 100%; 
