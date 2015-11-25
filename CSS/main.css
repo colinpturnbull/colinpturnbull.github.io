@@ -23,8 +23,8 @@ h3 {
 }
 
 ::selection {
-  background: #986C2B;
-  color: #fff; /* WebKit/Blink Browsers */
+  background: #F2EDE4;
+  color: #33322d; /* WebKit/Blink Browsers */
 }
 
 
@@ -502,7 +502,7 @@ ul.about-content {
 }
 
 .download {
-	margin-top: 30px;
+	margin-top: 50px;
 	width: 175px;
 }
 
@@ -663,15 +663,21 @@ footer {
 		width: 100%;
 		padding: 0;
 	}
-
+	
 	.resume-title {
 		width: 100%;
+		line-height: 20px
 	}
-	
+
+	.resume-title span {
+		display: block;
+	}
+
 	.resume-date {
 		float: left;
 		text-align: left;
 		width: 100%;
+		line-height: 30px
 	}
 
 	.resume-duties {
@@ -680,7 +686,11 @@ footer {
 	}
 
 	.download {
-		margin: 0 auto;
+		margin: 50px auto 0;
+	}
+
+	.right-date {
+		line-height: 30px
 	}
 
 	.large-12.columns.index {
