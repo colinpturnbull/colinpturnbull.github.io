@@ -27,6 +27,9 @@ h3 {
   color: #33322d; /* WebKit/Blink Browsers */
 }
 
+a {
+	color: #986C2B;
+}
 
 
 /*--------------------------------------------*/
@@ -286,24 +289,27 @@ span.project-title {
 
 .small-3.columns h2 {
 	font-family: 'Montserrat' sans-serif;
-	color: #33322D;
+	color: #986C2B;
+	text-transform: uppercase;
 	font-weight: 700;
-	margin: 0 auto 15px auto;
+	margin: 0 auto 10px auto;
+	font-size: 1.5em;
 	line-height: 1.1em;
+	letter-spacing: 1px;
 }
 
 .small-3.columns .project-date {
 	font-family: 'Open-Sans' sans-serif;	
 	color: #999;
 	font-size: 12px;
-	margin: 0 auto;
+	margin: 0 auto 10px;
 }
 
 .small-3.columns .project-content {
 	font-family: 'Open-Sans' sans-serif;
 	color: #33322D;
 	font-size: 14px;
-	margin: 0 auto;
+	margin: 0 auto 15px;
 }
 
 .small-9.columns {
@@ -334,8 +340,10 @@ span.project-title {
 }
 
 .project-content span {
+	font-family: 'Montserrat' sans-serif;
+	font-weight: 700;
 	display: block;
-	margin-bottom: 15px;
+	letter-spacing: 1px
 }
 
 
@@ -503,7 +511,7 @@ ul.about-content {
 
 .download {
 	margin-top: 50px;
-	width: 175px;
+	width: 200px;
 }
 
 
@@ -512,6 +520,7 @@ ul.about-content {
 	border: 1px solid #33322D;
 	font-weight: 700;
 	font-size: 12px;
+	letter-spacing: 1px;
 	width: 100%;
 	text-align: center;
 	padding: 10px 20px;
