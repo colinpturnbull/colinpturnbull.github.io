@@ -114,7 +114,7 @@ a:hover:after {
 }
 
 .background-colin {
-	background-image: url("../IMG/BGimg.jpg");
+	background-image: url("../Images/BGimg.jpg");
 	background-repeat: no-repeat;
 	width: 100%;
 	height: 100%;
@@ -204,7 +204,7 @@ a:hover:after {
 }
 
 .background-colin-about {
-	background-image: url("../IMG/BGimg.jpg");
+	background-image: url("../Images/BGimg.jpg");
 	background-repeat: no-repeat;
 	width: 100%;
 	height: 1080px;
