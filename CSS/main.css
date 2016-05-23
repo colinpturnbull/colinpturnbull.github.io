@@ -214,7 +214,7 @@ a:hover:after {
 	position: relative;
 	float: right;
 	padding: 7px 20px 0 0;
-	margin-bottom: 150px;
+	margin-bottom: 85px;
 }
 
 .connect {
@@ -329,19 +329,6 @@ footer {
 		line-height: 28px;
 	}
 
-	.small-9.columns.description.connect {
-		font-family: 'Poppins', sans-serif;
-		font-weight: 500;
-		font-size: 19px;
-		letter-spacing: 2px;
-		line-height: 32px;
-		width: 66.666%;
-		position: relative;
-		float: right;
-		padding: 7px 20px 0 0;
-		margin-bottom: 150px;
-}
-
 	.row-cs {
 		margin: 500px auto 0 auto;
 	}
@@ -405,6 +392,10 @@ footer {
 	.row-about-2 {
 		margin-top: 200px;
 	}
+
+	.small-9.columns.description.connect {
+		margin-bottom: 150px;
+}
 
 	.row-cs {
 		margin: 300px auto 0 auto;
