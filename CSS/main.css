@@ -97,6 +97,16 @@ a:hover:after {
 	color: #000000;
 }
 
+.hero-type.animated.fadeIn.about {
+	margin: 40px 270px 70px 20px;
+	font-size: 46px;
+	line-height: 60px;
+	letter-spacing: 3.5px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 500;
+	color: #000000;
+}
+
 .hero-link.animated.fadeIn {
 	display: block;
 	font-size: 36px;
@@ -277,6 +287,12 @@ footer {
 		margin-right: 170px;
 	}
 
+	.hero-type.animated.fadeIn.about {
+		font-size: 36px;
+		line-height: 47px;
+		margin-right: 170px;
+	}
+
 	.hero-link.animated.fadeIn {
 		font-size: 28px;
 	}
@@ -333,6 +349,13 @@ footer {
 	}
 
 	.hero-type.animated.fadeIn {
+		font-size: 30px;
+		line-height: 39px;
+		margin-left: 10px;
+		margin-right: 0px;
+	}
+
+	.hero-type.animated.fadeIn.about {
 		font-size: 30px;
 		line-height: 39px;
 		margin-left: 10px;
