@@ -394,4 +394,14 @@ footer {
 	}
 }
 
+@media (max-width: 320px) {
+	.hero-type.animated.fadeIn.about {
+		font-size: 30px;
+		line-height: 39px;
+		margin-left: 10px;
+		margin-right: 0px;
+	}
+
+	}
+
 
