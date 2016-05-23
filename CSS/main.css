@@ -402,6 +402,14 @@ footer {
 		margin-right: 0px;
 	}
 
+	.hero-type.animated.fadeIn {
+		font-size: 30px;
+		line-height: 39px;
+		margin-left: 10px;
+		margin-right: 0px;
+	}
+
+
 	}
 
 
