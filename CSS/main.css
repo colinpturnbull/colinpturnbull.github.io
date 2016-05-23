@@ -214,7 +214,7 @@ a:hover:after {
 	position: relative;
 	float: right;
 	padding: 7px 20px 0 0;
-	margin-bottom: 85px;
+	margin-bottom: 150px;
 }
 
 .connect {
@@ -330,16 +330,16 @@ footer {
 	}
 
 	.small-9.columns.description.connect {
-	font-family: 'Poppins', sans-serif;
-	font-weight: 500;
-	font-size: 19px;
-	letter-spacing: 2px;
-	line-height: 32px;
-	width: 66.666%;
-	position: relative;
-	float: right;
-	padding: 7px 20px 0 0;
-	margin-bottom: 150px;
+		font-family: 'Poppins', sans-serif;
+		font-weight: 500;
+		font-size: 19px;
+		letter-spacing: 2px;
+		line-height: 32px;
+		width: 66.666%;
+		position: relative;
+		float: right;
+		padding: 7px 20px 0 0;
+		margin-bottom: 150px;
 }
 
 	.row-cs {
