@@ -1,3 +1,7 @@
+function sayHello() {
+   alert("Hello World")
+}
+
 $(document).ready(function() {
 
    $('a').on('click touchend', function(e) {
