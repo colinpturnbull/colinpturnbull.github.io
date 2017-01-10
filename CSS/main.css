@@ -3,8 +3,12 @@ h1,html,p {
     color: #212121;
 }
 
-h1,h2,h3,h4,h5,h6 {
-    font-weight: 400
+h2,h3,h4,h5,h6 {
+    font-weight: 400;
+}
+
+h1 {
+    font-weight: 700;
 }
 
 #home,#lost,#work {
@@ -33,7 +37,7 @@ html {
     margin: 0;
     height: 100%;
     box-sizing: border-box;
-    font-family: 'Space Mono', monospace;
+    font-family: 'Roboto Mono', monospace;
     -webkit-font-smoothing: antialiased;
 }
 
